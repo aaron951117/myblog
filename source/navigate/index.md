@@ -1,4 +1,6 @@
 ---
 title: navigate
-date: 2022-01-21 03:00:07
+date: 2018-09-30 17:25:30
+type: "navigate"
+layout: "navigate"
 ---
