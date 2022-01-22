@@ -23,10 +23,16 @@ categories:
 - 切换分支
   - https://chinese.freecodecamp.org/news/git-switch-branch/
   - 2021年4月21日
-
 - 本地分支关联远程分支
   - https://www.cnblogs.com/bigben0123/p/13208286.html
   - 2020-06-29 15:40
   - https://segmentfault.com/a/1190000039703878
   - 2021-03-24
-- 
+
+## 关于仓库
+
+- 查看关联的远程仓库地址
+
+  - ```bash
+    git remote -v
+    ```
