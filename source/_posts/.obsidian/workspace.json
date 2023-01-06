@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "20220121.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a2d304eae37e497",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "论文1算法.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,8 +159,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f3c14f4dc8e97994",
+  "active": "4a2d304eae37e497",
   "lastOpenFiles": [
+    "20220121.md",
+    "论文1算法.md",
+    "每日脑路图.md",
+    "20220208.md",
+    "20220122.md",
+    "20220126.md",
     "算法.md",
     "强化学习.md"
   ]
