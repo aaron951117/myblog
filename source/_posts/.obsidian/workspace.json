@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "fe4c6aec7dad0517",
+    "id": "48b691787556dedd",
     "type": "split",
     "children": [
       {
-        "id": "a2f2e6802aacecaf",
+        "id": "8373383a951ef403",
         "type": "tabs",
         "children": [
           {
-            "id": "7ffc69ee9531aaf3",
+            "id": "f3c14f4dc8e97994",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "dceb29b55585c1c4",
+    "id": "32592f25e92931e7",
     "type": "split",
     "children": [
       {
-        "id": "0d5a49f4500ead9f",
+        "id": "3e6046d2207294ab",
         "type": "tabs",
         "children": [
           {
-            "id": "cda7e9ad771ce0dd",
+            "id": "126dda24177e3191",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,12 +43,12 @@
             }
           },
           {
-            "id": "5efcb6822a466f15",
+            "id": "8ca8092540abbcfc",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#If",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "a6db8066d181fcee",
+            "id": "d80ad2f7fbb4427a",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -69,18 +69,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "dc50c6273a6f712a",
+    "id": "44e4e4dd0cc04dfb",
     "type": "split",
     "children": [
       {
-        "id": "90ccf387d8abf78d",
+        "id": "9861d5cd9d131081",
         "type": "tabs",
         "children": [
           {
-            "id": "080e1c8c1315e508",
+            "id": "d18b77b430c09c6e",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -97,7 +97,7 @@
             }
           },
           {
-            "id": "2796fbd7642e6262",
+            "id": "242406803cafff96",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -109,7 +109,7 @@
             }
           },
           {
-            "id": "5e4db6a2b0ccd6a1",
+            "id": "dbbf4c977b0f99ae",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,7 +120,7 @@
             }
           },
           {
-            "id": "9279bd8d96d6507e",
+            "id": "abecc45ef18e5a7a",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -134,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,6 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7ffc69ee9531aaf3",
-  "lastOpenFiles": []
+  "active": "f3c14f4dc8e97994",
+  "lastOpenFiles": [
+    "算法.md",
+    "强化学习.md"
+  ]
 }
