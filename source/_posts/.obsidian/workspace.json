@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8373383a951ef403",
+        "id": "f94f210aa90bebd1",
         "type": "tabs",
         "children": [
           {
-            "id": "f3c14f4dc8e97994",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "论文1算法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a2d304eae37e497",
+            "id": "f39a3b00f761f856",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 203.5
+    "width": 253.5
   },
   "right": {
     "id": "44e4e4dd0cc04dfb",
@@ -143,7 +130,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -159,16 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "126dda24177e3191",
+  "active": "f39a3b00f761f856",
   "lastOpenFiles": [
     "论文1算法.md",
     "英文论文积累.md",
-    "20220121.md",
     "每日脑路图.md",
-    "20220208.md",
+    "Untitled 1.md",
+    "Untitled.canvas",
+    "七牛云.md",
     "20220122.md",
-    "20220126.md",
-    "算法.md",
-    "强化学习.md"
+    "20220121.md",
+    "20220208.md",
+    "20220126.md"
   ]
 }
