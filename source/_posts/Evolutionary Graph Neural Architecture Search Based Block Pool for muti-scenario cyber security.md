@@ -12,3 +12,6 @@
 4. neural architecture search || evolution || 2018-2023 79
 5. neural architecture search || 2018-2023 1851
 
+## 创新点
+首次将ENAS运用到图神经网络做信息入侵识别
+
