@@ -35,4 +35,7 @@ categories:
 
   - ```bash
     git remote -v
-    ```
+
+# 代理设置
+1. https://gist.github.com/laispace/666dd7b27e9116faece6
+2. 
