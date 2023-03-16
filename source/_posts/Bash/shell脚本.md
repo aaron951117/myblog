@@ -44,4 +44,17 @@ ${#array[@]}
 ${array[*]}
 ###字符串长度
 ${#str}
+### 数组结尾添加元素
+array[${#array[@]}]=element
 ```
+
+## 字符串处理
+1. 提取字符串中的数字
+```bash
+echo hgdfjg678gfdg kjg45nn | tr -d -c 0-9 # 输出 67845
+
+```
+
+## 逻辑循环
+1. while read 后面没有冒号
+2. while read前有时需要添加echo
