@@ -1,4 +1,20 @@
-1.  直接判断
+---
+title: Bash-空值判断
+top: false
+cover: false
+toc: true
+mathjax: false
+date: 2023-03-15 17:36:42
+author:
+img:
+coverImg:
+password:
+summary:
+tags:
+categories:
+---
+
+1.  空值判断
 ```bash
 name=
 if [ $name ];then

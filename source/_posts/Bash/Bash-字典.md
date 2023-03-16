@@ -1,3 +1,19 @@
+---
+title: Bash-字典
+top: false
+cover: false
+toc: true
+mathjax: false
+date: 2023-03-15 17:36:42
+author:
+img:
+coverImg:
+password:
+summary:
+tags:
+categories:
+---
+
 1. 查看字典里某个键名是否存在
 ```shell
 if [ -v dic["key1"] ]; then echo "key1 exists in dic" fi

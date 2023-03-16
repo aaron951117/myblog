@@ -1,3 +1,19 @@
+---
+title: Bash-tr
+top: false
+cover: false
+toc: true
+mathjax: false
+date: 2023-03-15 17:36:42
+author:
+img:
+coverImg:
+password:
+summary:
+tags:
+categories:
+---
+
 tr [选项]... SET1 [SET2]
 
 选项包括下面的:

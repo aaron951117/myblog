@@ -1,3 +1,19 @@
+---
+title: Bash-if 判断符号
+top: false
+cover: false
+toc: true
+mathjax: false
+date: 2023-03-15 17:36:42
+author:
+img:
+coverImg:
+password:
+summary:
+tags:
+categories:
+---
+
 -eq       //等于  
 -ne       //不等于  
 -gt        //大于 （greater）  
