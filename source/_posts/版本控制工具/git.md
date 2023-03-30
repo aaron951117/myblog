@@ -13,29 +13,71 @@ summary:
 tags:
 categories:
 ---
+
+Git是目前世界上最先进的分布式版本控制系统。
+![[Pasted image 20230330173533.png]]
 # 使用
 
 ## 关于分支
 
-- 删除本地分支和远程分支
-  - https://chinese.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/
-  - 2020年11月30日
-- 切换分支
+### 删除分支
+https://chinese.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/
+2020年11月30日
+```bash
+# 删除本地分支
+git branch -d localBranchName
+# 删除远程分支
+git push origin --delete remoteBranchName
+# 删除远程分支
+git branch -r -d origin/branch-name  
+git push origin :branch-name
+```
+
+### 切换分支
   - https://chinese.freecodecamp.org/news/git-switch-branch/
   - 2021年4月21日
-- 本地分支关联远程分支
+```bash
+# 可以使用它来创建新分支、退出分支、退出特定的 commit 等
+git checkout master  # Switched to branch 'master'
+git checkout - # switched to last branch
+```
+
+### 关联分支
   - https://www.cnblogs.com/bigben0123/p/13208286.html
   - 2020-06-29 15:40
   - https://segmentfault.com/a/1190000039703878
   - 2021-03-24
 
+### 查看分支
+```bash
+# 加上-a参数可以查看远程分支，远程分支会用红色表示出来（如果你开了颜色支持的话）
+git branch -a
+```
+
+
 ## 关于仓库
+### 仓库地址
+```bash
+git remote -v
+```
 
-- 查看关联的远程仓库地址
-
-  - ```bash
-    git remote -v
 
 # 代理设置
 1. https://gist.github.com/laispace/666dd7b27e9116faece6
-2. 
+
+
+# git checkout
+
+## 新建分支
+```bash
+# 本地会新建一个分支名叫 branch_name ，会自动跟踪远程的同名分支 branch_name
+# 远程新建了一个分支，本地没有该分支
+git checkout --track origin/branch_name
+# 本地新建了一个分支 branch_name，但是在远程没有
+git push --set-upstream origin new_branch_name  # 在远程新建分支
+
+```
+## 切换分支
+```bash
+git checkout branch_name
+```
