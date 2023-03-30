@@ -31,6 +31,8 @@ git push origin --delete remoteBranchName
 # 删除远程分支
 git branch -r -d origin/branch-name  
 git push origin :branch-name
+# 删除本地分支里远程不存在的分支
+git fetch --prune
 ```
 
 ### 切换分支
@@ -52,6 +54,11 @@ git checkout - # switched to last branch
 ```bash
 # 加上-a参数可以查看远程分支，远程分支会用红色表示出来（如果你开了颜色支持的话）
 git branch -a
+# 查看本地分支和远程分支的关联
+三选一
+git branch -vv
+git remote show origin
+cat .git/config
 ```
 
 
