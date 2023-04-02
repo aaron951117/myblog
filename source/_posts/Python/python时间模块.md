@@ -11,7 +11,7 @@ coverImg:
 password:
 summary:
 tags:
-Categories:python
+Categories: python
 ---
 
 # python CST时间转换为其他格式字符串
