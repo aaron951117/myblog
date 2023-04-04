@@ -149,3 +149,7 @@ python main.py --train_epoch=50
 # 容器使用宿主机的代理配置
 
 - https://kebingzao.com/2019/02/22/docker-container-proxy/
+
+
+# 进入正在运行的docker
+sudo docker exec -u 0 -it lucid_williams  /bin/bash
