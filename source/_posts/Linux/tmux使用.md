@@ -20,3 +20,6 @@ categories:
 - 进入会话 tmux -u a -t session-name
 - detach一个已经attach的会话 tmux detach-client -s session-name
 - https://segmentfault.com/a/1190000007427965
+- tmux ls
+- tmux 临时退出某个窗口 ctrl+P 然后按Q
+- 

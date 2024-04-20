@@ -19,3 +19,7 @@ categories:
 /System/Library/Fonts
 /Library/Fonts
 ```
+用户安装的库路径
+```bash
+/usr/local/lib/
+```

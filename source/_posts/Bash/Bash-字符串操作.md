@@ -25,4 +25,32 @@ echo ${temp}
 # helloworld
 ```
 
- 
+ https://blog.csdn.net/dongwuming/article/details/50605911
+
+
+# 字符串截取
+http://c.biancheng.net/view/1120.html
+https://wangdoc.com/bash/string
+```bash
+#!/bin/bash
+
+url="http://c.biancheng.net/index.html"
+echo ${url#*/}    #结果为 /c.biancheng.net/index.html
+echo ${url##*/}   #结果为 index.html
+
+str="---aa+++aa@@@"
+echo ${str#*aa}   #结果为 +++aa@@@
+echo ${str##*aa}  #结果为 @@@
+```
+
+```bash
+#!/bin/bash
+
+url="http://c.biancheng.net/index.html"
+echo ${url%/*}  #结果为 http://c.biancheng.net
+echo ${url%%/*}  #结果为 http:
+
+str="---aa+++aa@@@"
+echo ${str%aa*}  #结果为 ---aa+++
+echo ${str%%aa*}  #结果为 ---
+```

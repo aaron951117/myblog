@@ -61,4 +61,9 @@ else
     echo 'NO'
 fi
 
+
+# BASH中的正则表达式
+[[ "/path/to/foo.txt" =~ .*txt$ ]] && echo "true" || echo "false"
+
+https://blog.51cto.com/u_11101184/3136257
 ```

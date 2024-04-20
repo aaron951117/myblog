@@ -39,3 +39,11 @@ values=${dic[*]} // 获取字典中所有的值的列表
 keys=${!dic[*]} // 获取字典中所有的键的列表
 ```
 
+4. 删除字典中的键值对
+http://blog.itpub.net/69955379/viewspace-2788388/
+```bash
+[root@localhost ~]# unset dic[key1]
+[root@localhost ~]# unset dic[$var_key1]
+[root@localhost ~]# echo ${dic[@]}
+value4 value3 value2
+```

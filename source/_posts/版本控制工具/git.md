@@ -88,3 +88,21 @@ git push --set-upstream origin new_branch_name  # 在远程新建分支
 ```bash
 git checkout branch_name
 ```
+
+## 查看git的配置信息
+```bash
+https://www.cnblogs.com/merray/p/6006411.html
+```
+
+
+# 第一次克隆
+1. 需要在机器上生成密钥，然后在网页的git账户上的ssh_key上添加上.pub里的内容
+2. 不要在需要sudo的目录下克隆，需要在root的.ssh文件夹也生成密钥，在网页传入账户的ssh_key
+
+# 生成公钥
+1.
+```bash
+ssh-keygen -t rsa -b 4096 -C "your_email@domain.com"
+ssh-keygen -t rsa -C "your_email@qq.com"
+```
+
