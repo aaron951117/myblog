@@ -17,3 +17,9 @@ categories:
 1. 为什么utils包含了头文件#include "mainwindow.h"还需要声明类class MainWindow;
 8U3eUt8U3eUt
 2. 过滤小工具在读取了新文件之后使用clear清除了表格里的内容，又重新新建了对象，那么之前的对象没有delete会不会存在内存泄漏。
+
+
+qmake -tp vc
+
+# G++ 编译QT
+g++ -std=c++11 -o my_program my_program.cpp `pkg-config --cflags --libs Qt5Core` -fPIC
